@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+#app {
+    margin: auto;
+    max-width: 600px;
+}
+
+#noteArea {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#saveButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#saveButton:hover {
+    background-color: #45a049;
+}
+
+#loadButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#loadButton:hover {
+    background-color: #45a049;
+}
+
+#notesList {
+    margin-top: 20px;
+}
+
+.drawing-canvas {
+    border: 2px solid #000; /* Black border, 2 pixels thick */
+    display: block; /* To prevent default margin/padding */
+    margin: 0 auto; /* Center the canvas if it's not full width */
+    touch-action: none; /* Prevent default touch actions like scrolling and zooming */
+}
