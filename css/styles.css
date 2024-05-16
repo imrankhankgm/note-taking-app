@@ -1,3 +1,4 @@
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
     padding: 0;
@@ -20,6 +21,11 @@ body {
     box-sizing: border-box;
     background-color: #ffffff; /* White background for tools */
     z-index: 1; /* Ensure tools appear above canvas */
+}
+
+.page {
+    height: 100vh; /* Full height of viewport */
+    overflow: hidden; /* Hide overflow content */
 }
 
 .drawing-svg {

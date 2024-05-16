@@ -1,6 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const svg = document.getElementById('noteSVG');
-
+// drawing.js
+export function setupDrawing(svg) {
     let isDrawing = false;
     let lastX = 0;
     let lastY = 0;
@@ -115,9 +114,4 @@ document.addEventListener('DOMContentLoaded', () => {
     svg.addEventListener('touchend', handleEnd);
     svg.addEventListener('mouseup', handleEnd);
     svg.addEventListener('mouseleave', handleEnd);
-
-    // Increase point density for larger stroke sizes
-    penSizeInput.addEventListener('input', () => {
-        penSize = penSizeInput.value;
-    });
-});
+}
