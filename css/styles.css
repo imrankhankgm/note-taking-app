@@ -22,7 +22,7 @@ body {
     z-index: 1; /* Ensure tools appear above canvas */
 }
 
-.drawing-canvas {
+.drawing-svg {
     position: absolute;
     top: 50px; /* Adjust as needed based on tool height */
     left: 0;
@@ -30,7 +30,6 @@ body {
     height: calc(100% - 70px); /* Adjusted height for space */
     margin: 10px; /* Space around the canvas */
     border: 2px solid #000; /* Black border, 2 pixels thick */
-    touch-action: none; /* Prevent default touch actions like scrolling and zooming */
     z-index: 0; /* Ensure canvas appears below tools */
 }
 
