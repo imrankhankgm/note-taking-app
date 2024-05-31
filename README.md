@@ -47,6 +47,5 @@ Welcome to the Note Taking App, a versatile and secure web-based application for
 ### License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-Acknowledgements
 
-For more information, visit our GitHub repository.
+For more information, visit our GitHub repository [note-taking-app](https://github.com/imrankhankgm/note-taking-app/).
