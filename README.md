@@ -27,10 +27,11 @@ Welcome to the Note Taking App, a versatile and secure web-based application for
 ### Installation
 1. Clone the repository:
 
-```git clone https://github.com/imrankhankgm/note-taking-app.git```
+    ```git clone https://github.com/imrankhankgm/note-taking-app.git```
 
 2. Navigate to the project directory:
-```cd note-taking-app```
+
+    ```cd note-taking-app```
 
 3. Open index.html in your preferred web browser.
 
