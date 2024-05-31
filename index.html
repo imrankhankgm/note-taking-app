@@ -9,19 +9,20 @@
 </head>
 <body>
     <div id="app">
-        
         <div class="tools">
             <input type="color" id="colorPicker" value="#000000">
             <input type="range" id="penSize" min="1" max="20" value="2">
             <button id="pencilButton" class="tool-button active">Pencil</button>
             <button id="eraserButton" class="tool-button">Eraser</button>
-            <button id="saveButton">Save Canvas</button>
-            <button id="loadButton">Load Canvas</button>
+            <button id="saveButton">Save SVG</button>
+            <button id="loadButton">Load SVG</button>
         </div>
-        <canvas id="noteCanvas" class="drawing-canvas"></canvas>
+        <div id="pagesContainer">
+            <!-- SVG containers for pages will be dynamically added here -->
+        </div>
         <div id="notesList"></div>
     </div>
     
-    <script src="js/app.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
