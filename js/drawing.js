@@ -1,4 +1,3 @@
-// drawing.js
 export function setupDrawing(svg) {
     let isDrawing = false;
     let lastX = 0;

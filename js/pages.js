@@ -1,5 +1,3 @@
-// pages.js
-// pages.js
 export function addPage(pagesContainer) {
     const page = document.createElement('div');
     page.classList.add('page');

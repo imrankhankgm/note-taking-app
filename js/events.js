@@ -1,4 +1,3 @@
-// events.js
 export function handleStart(event) {
     const svg = event.currentTarget;
     if (event.touches && event.touches.length === 1 && event.touches[0].touchType === 'stylus') {
